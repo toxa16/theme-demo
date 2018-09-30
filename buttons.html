@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Theme Demo - Buttons</title>
+
+  <!-- Source Sans Pro font -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+
+  <!-- theme styles -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand navbar-dark bg-dark mb-4">
+    <a class="navbar-brand" href="index.html">Theme Demo</a>
+
+    <div>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="typography.html">Typography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="badge.html">Badge</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="buttons.html">Buttons</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col">
+        <div class="alert alert-warning" role="alert">
+          <b>Warning!</b>
+          <span>No custom styles have been applied for <i>.btn-secondary</i> class. Use <i>.btn-outline-primary</i> instead.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h1 class="display-4">Buttons</h1>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-link">Link</button>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col">
+        <h2>Outline buttons</h2>
+
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h2>Sizes</h2>        
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="row mb-2">
+          <div class="col">
+            <h6>Large buttons</h6>
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            <button type="button" class="btn btn-outline-primary btn-lg">Large button</button>
+          </div>
+          <div class="col">
+            <h6>Small buttons</h6>
+            <button type="button" class="btn btn-primary btn-sm">Small button</button>
+            <button type="button" class="btn btn-outline-primary btn-sm">Small button</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col">
+        <h6>Block level buttons</h6>
+        <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+        <button type="button" class="btn btn-outline-primary btn-lg btn-block">Block level button</button>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col col-md-4">
+        <h2>Active state</h2>
+
+        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
+      </div>
+      <div class="col col-md-8">
+        <h2>Disabled state</h2>
+
+        <button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" disabled>Button</button>
+
+        <a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
+        <a href="#" class="btn btn-outline-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      
+    </div>
+
+    <div class="row mb-4">
+      <div class="col">
+        <h2>Button Tags</h2>
+
+        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <button class="btn btn-primary" type="submit">Button</button>
+        <input class="btn btn-primary" type="button" value="Input">
+        <input class="btn btn-primary" type="submit" value="Submit">
+        <input class="btn btn-primary" type="reset" value="Reset">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
